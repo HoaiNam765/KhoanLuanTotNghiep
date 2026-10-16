@@ -1,0 +1,15 @@
+{
+  "so_nguoi": 1004,
+  "so_nguoi_co_bien_bo_trong": 181,
+  "lech_raw_toi_da": 1.4210854715202004e-14,
+  "lech_scaled_toi_da": 7.105427357601002e-15,
+  "lech_xac_suat_toi_da": 2.220446049250313e-16,
+  "so_ket_luan_khac": 0,
+  "nguong": 0.33159836222721084,
+  "trong_so": [
+    0.645313879248516,
+    0.3546861207514839
+  ],
+  "G2_doc_bang": "lgbm_doc (numpy, không cài lightgbm)",
+  "DAT": true
+}

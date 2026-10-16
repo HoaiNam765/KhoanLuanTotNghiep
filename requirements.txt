@@ -1,0 +1,11 @@
+# Research environment Python 3.12.10
+streamlit>=1.45,<2
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.1
+joblib==1.6.0
+lightgbm==4.6.0
+plotly>=6,<7
+Pillow>=11,<13
+pytest>=8,<10

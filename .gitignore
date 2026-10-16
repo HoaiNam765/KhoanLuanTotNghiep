@@ -1,0 +1,14 @@
+# Local Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+# Local exports / raw sensitive datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.zip
+*.rar

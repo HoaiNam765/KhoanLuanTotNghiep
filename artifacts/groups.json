@@ -1,0 +1,58 @@
+{
+  "version": "Tuan7_v1",
+  "dataset": "ChotTuan1Den4_v2 (cohort 6.688 người, khóa 28/09/2026)",
+  "n_features": 43,
+  "groups": {
+    "G1": [
+      "RIDAGEYR",
+      "BMXBMI",
+      "BMXWAIST",
+      "BMXHIP",
+      "BPXOSY1",
+      "BPXODI1",
+      "RIAGENDR",
+      "RIDRETH3_2.0",
+      "RIDRETH3_3.0",
+      "RIDRETH3_4.0",
+      "RIDRETH3_6.0",
+      "RIDRETH3_7.0",
+      "BPXOSY1_was_missing",
+      "BPXODI1_was_missing"
+    ],
+    "G2": [
+      "LBXSASSI",
+      "LBXSATSI",
+      "LBXSGTSI",
+      "LBXSTR",
+      "LBDHDD",
+      "LBXTC",
+      "LBXSGL",
+      "LBXGH",
+      "LBXSASSI_was_missing",
+      "LBXSATSI_was_missing",
+      "LBXSGTSI_was_missing",
+      "LBXSTR_was_missing",
+      "LBDHDD_was_missing",
+      "LBXTC_was_missing",
+      "LBXSGL_was_missing"
+    ],
+    "G3": [
+      "BPQ020",
+      "BPQ080",
+      "GLYCEMIC_HX_1.0",
+      "GLYCEMIC_HX_2.0"
+    ],
+    "G4": [
+      "PAD680",
+      "DR1TKCAL",
+      "DR1TSUGR",
+      "DR1TSFAT",
+      "DR1TFIBE",
+      "PAQ650",
+      "SMOKE_STATUS_1.0",
+      "SMOKE_STATUS_2.0",
+      "SMOKE_STATUS_3.0",
+      "diet_recall_missing"
+    ]
+  }
+}

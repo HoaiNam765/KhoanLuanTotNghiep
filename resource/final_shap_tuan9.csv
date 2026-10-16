@@ -1,0 +1,29 @@
+﻿phan,muc,don_vi,nhom,gia_tri,don_vi_gia_tri,ty_trong_pct,nguon
+top15_fusion_b,Vòng eo,cm,G1,11.69772540934933,điểm % xác suất (mean|SHAP|),29.92420959942597,bang/top15_bien_goc.csv
+top15_fusion_b,Chỉ số BMI,kg/m²,G1,4.099750559591234,điểm % xác suất (mean|SHAP|),10.48766240935348,bang/top15_bien_goc.csv
+top15_fusion_b,Vòng mông,cm,G1,4.004832368793993,điểm % xác suất (mean|SHAP|),10.244850090135865,bang/top15_bien_goc.csv
+top15_fusion_b,Chủng tộc / dân tộc,nhóm NHANES,G1,3.566374215526104,điểm % xác suất (mean|SHAP|),9.123220609204546,bang/top15_bien_goc.csv
+top15_fusion_b,ALT,U/L,G2,2.592010254539352,điểm % xác suất (mean|SHAP|),6.630678651313239,bang/top15_bien_goc.csv
+top15_fusion_b,HbA1c,%,G2,2.1853996367782127,điểm % xác suất (mean|SHAP|),5.590519054002842,bang/top15_bien_goc.csv
+top15_fusion_b,Triglyceride,mg/dL,G2,1.915769555521575,điểm % xác suất (mean|SHAP|),4.9007723909990055,bang/top15_bien_goc.csv
+top15_fusion_b,GGT,U/L,G2,1.6925507766842345,điểm % xác suất (mean|SHAP|),4.329751505253318,bang/top15_bien_goc.csv
+top15_fusion_b,Tuổi,năm,G1,1.6051637100416365,điểm % xác suất (mean|SHAP|),4.106204720986858,bang/top15_bien_goc.csv
+top15_fusion_b,Huyết áp tâm trương,mmHg,G1,1.4618923886619997,điểm % xác suất (mean|SHAP|),3.739699191020802,bang/top15_bien_goc.csv
+top15_fusion_b,HDL-cholesterol,mg/dL,G2,1.0579252184813692,điểm % xác suất (mean|SHAP|),2.70630185532077,bang/top15_bien_goc.csv
+top15_fusion_b,Glucose huyết thanh,mg/dL,G2,1.010999931606386,điểm % xác suất (mean|SHAP|),2.586261243080215,bang/top15_bien_goc.csv
+top15_fusion_b,Giới tính (nam = 1),0/1,G1,0.9621902612032252,điểm % xác suất (mean|SHAP|),2.461400147738064,bang/top15_bien_goc.csv
+top15_fusion_b,AST,U/L,G2,0.9461389616066828,điểm % xác suất (mean|SHAP|),2.420338963904305,bang/top15_bien_goc.csv
+top15_fusion_b,Cholesterol toàn phần,mg/dL,G2,0.2358846135514183,điểm % xác suất (mean|SHAP|),0.6034216371287575,bang/top15_bien_goc.csv
+nhom_fusion_b,G1 Nhân khẩu – nhân trắc,,G1,27.454496945058636,điểm % xác suất,70.23195469899755,bang/shap_theo_nhom.csv
+nhom_lgbm_gop,G1 Nhân khẩu – nhân trắc,,G1,1.6110223339779424,log-odds,53.94748087536958,bang/shap_theo_nhom.csv
+nhom_fusion_b,G2 Sinh hóa,,G2,11.63667894876923,điểm % xác suất,29.76804530100245,bang/shap_theo_nhom.csv
+nhom_lgbm_gop,G2 Sinh hóa,,G2,1.1517562354472812,log-odds,38.568271944099926,bang/shap_theo_nhom.csv
+nhom_fusion_b,G3 Bệnh nền,,G3,1.850636198429549e-16,điểm % xác suất,4.734153312389222e-16,bang/shap_theo_nhom.csv
+nhom_lgbm_gop,G3 Bệnh nền,,G3,0.0240313240049055,log-odds,0.8047246551593753,bang/shap_theo_nhom.csv
+nhom_fusion_b,G4 Lối sống – khẩu phần,,G4,6.047326812857254e-16,điểm % xác suất,1.5469800215992149e-15,bang/shap_theo_nhom.csv
+nhom_lgbm_gop,G4 Lối sống – khẩu phần,,G4,0.1994691836221518,log-odds,6.679522525371118,bang/shap_theo_nhom.csv
+ca_minh_hoa,SEQN 110381 (TP),,,56.21413877924788,xác suất %,,bang/ca_minh_hoa_shap.csv
+ca_minh_hoa,SEQN 109394 (TN),,,11.40376283480693,xác suất %,,bang/ca_minh_hoa_shap.csv
+ca_minh_hoa,SEQN 112594 (FP),,,43.686651862912655,xác suất %,,bang/ca_minh_hoa_shap.csv
+ca_minh_hoa,SEQN 109568 (FN),,,23.2465893822943,xác suất %,,bang/ca_minh_hoa_shap.csv
+ca_minh_hoa,SEQN 123248 (sát ngưỡng (FP)),,,33.16924377667121,xác suất %,,bang/ca_minh_hoa_shap.csv
