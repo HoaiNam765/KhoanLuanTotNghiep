@@ -12,7 +12,6 @@ from src.inference import ROOT,load_runtime,predict_case
 
 st.set_page_config(page_title='NAFLD Insight | HUIT Research',page_icon='🧬',layout='wide')
 st.markdown('''<style>
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
 html,body,[class*="css"]{font-family:'Be Vietnam Pro',sans-serif;}
 .main .block-container{max-width:1230px;padding-top:1.9rem;}
 [data-testid="stSidebar"]{background:#0d2546;}[data-testid="stSidebar"] *{color:#ecf3ff!important;}
@@ -57,12 +56,12 @@ if nav=='Tổng quan':
 
 elif nav=='Dự đoán nguy cơ':
     st.markdown('### Nhập dữ liệu lâm sàng')
-    st.caption('Điền các thông tin theo bốn nhóm. Các trường không biết có thể đánh dấu thiếu; phần mềm dùng giá trị điền thiếu đã học từ TRAIN.')
+    st.caption('Ô số để trống được xem là thiếu dữ liệu, không phải giá trị trung vị đo thật. Nếu có số đo, hãy nhập giá trị thực tế.')
     meta=pd.read_csv(ROOT/'resource/ten_bien_don_vi.csv',encoding='utf-8-sig')
     names={r.bien_goc:(r.ten_bien,str(r.don_vi) if pd.notna(r.don_vi) else '') for r in meta.itertuples()}
     enums={'RIAGENDR':{1:'Nam',2:'Nữ'},'BPQ020':{1:'Có',2:'Không'},'BPQ080':{1:'Có',2:'Không'},'PAQ650':{1:'Có',2:'Không'},
-           'RIDRETH3':{1:'Nhóm NHANES 1',2:'Nhóm NHANES 2',3:'Nhóm NHANES 3',4:'Nhóm NHANES 4',6:'Nhóm NHANES 6',7:'Nhóm NHANES 7'},
-           'SMOKE_STATUS':{0:'Nhóm 0',1:'Nhóm 1',2:'Nhóm 2',3:'Nhóm 3'},'GLYCEMIC_HX':{0:'Nhóm 0',1:'Nhóm 1',2:'Nhóm 2'}}
+           'RIDRETH3':{1:'Mexico-Mỹ',2:'Hispanic khác',3:'Da trắng (không Hispanic)',4:'Da đen (không Hispanic)',6:'Châu Á (không Hispanic)',7:'Khác/đa chủng tộc'},
+           'SMOKE_STATUS':{0:'Chưa từng hút',1:'Đã bỏ',2:'Thỉnh thoảng',3:'Hằng ngày'},'GLYCEMIC_HX':{0:'Không',1:'Tiền đái tháo đường/giới hạn',2:'Đái tháo đường'}}
     gnames={'G1':'01 · Nhân khẩu & nhân trắc','G2':'02 · Xét nghiệm sinh hóa','G3':'03 · Bệnh nền','G4':'04 · Lối sống & khẩu phần'}
     vargroups={}
     for g,columns in groups.items():
@@ -82,11 +81,10 @@ elif nav=='Dự đoán nguy cơ':
                         label,unit=names.get(c,(c,'')); label=str(label)
                         if c in allnums:
                             missing=st.checkbox(f'Không có dữ liệu: {label}',key='missing_'+c)
-                            default=float(b['num_imputer'].statistics_[allnums.index(c)])
                             minv=18.0 if c=='RIDAGEYR' else 0.0
                             maxv=80.0 if c=='RIDAGEYR' else 100000.0
-                            value=st.number_input(label,min_value=minv,max_value=maxv,value=float(max(minv,min(maxv,default))),step=1.0 if c in ('RIDAGEYR','PAD680') else .1,disabled=missing,help=f'{c} · {unit}')
-                            case[c]=None if missing else float(value)
+                            value=st.number_input(label,min_value=minv,max_value=maxv,value=None,step=1.0 if c in ('RIDAGEYR','PAD680') else .1,disabled=missing,help=f'{c} · {unit}')
+                            case[c]=None if missing or value is None else float(value)
                         else:
                             choices=enums[c];case[c]=st.selectbox(label,options=list(choices),format_func=lambda x:choices[x],key='enum_'+c,help=c)
         st.divider()
