@@ -1,0 +1,44 @@
+﻿cot,bien_goc,ten_bien,don_vi,ten_cot,loai_cot,nhom,ten_nhom
+RIDAGEYR,RIDAGEYR,Tuổi,năm,Tuổi,numeric,G1,G1 Nhân khẩu – nhân trắc
+BMXBMI,BMXBMI,Chỉ số BMI,kg/m²,Chỉ số BMI,numeric,G1,G1 Nhân khẩu – nhân trắc
+BMXWAIST,BMXWAIST,Vòng eo,cm,Vòng eo,numeric,G1,G1 Nhân khẩu – nhân trắc
+BMXHIP,BMXHIP,Vòng mông,cm,Vòng mông,numeric,G1,G1 Nhân khẩu – nhân trắc
+BPXOSY1,BPXOSY1,Huyết áp tâm thu,mmHg,Huyết áp tâm thu,numeric,G1,G1 Nhân khẩu – nhân trắc
+BPXODI1,BPXODI1,Huyết áp tâm trương,mmHg,Huyết áp tâm trương,numeric,G1,G1 Nhân khẩu – nhân trắc
+LBXSASSI,LBXSASSI,AST,U/L,AST,numeric,G2,G2 Sinh hóa
+LBXSATSI,LBXSATSI,ALT,U/L,ALT,numeric,G2,G2 Sinh hóa
+LBXSGTSI,LBXSGTSI,GGT,U/L,GGT,numeric,G2,G2 Sinh hóa
+LBXSTR,LBXSTR,Triglyceride,mg/dL,Triglyceride,numeric,G2,G2 Sinh hóa
+LBDHDD,LBDHDD,HDL-cholesterol,mg/dL,HDL-cholesterol,numeric,G2,G2 Sinh hóa
+LBXTC,LBXTC,Cholesterol toàn phần,mg/dL,Cholesterol toàn phần,numeric,G2,G2 Sinh hóa
+LBXSGL,LBXSGL,Glucose huyết thanh,mg/dL,Glucose huyết thanh,numeric,G2,G2 Sinh hóa
+LBXGH,LBXGH,HbA1c,%,HbA1c,numeric,G2,G2 Sinh hóa
+PAD680,PAD680,Thời gian ngồi,phút/ngày,Thời gian ngồi,numeric,G4,G4 Lối sống – khẩu phần
+DR1TKCAL,DR1TKCAL,Năng lượng khẩu phần (ngày 1),kcal,Năng lượng khẩu phần (ngày 1),numeric,G4,G4 Lối sống – khẩu phần
+DR1TSUGR,DR1TSUGR,Đường tổng (ngày 1),g,Đường tổng (ngày 1),numeric,G4,G4 Lối sống – khẩu phần
+DR1TSFAT,DR1TSFAT,Chất béo bão hòa (ngày 1),g,Chất béo bão hòa (ngày 1),numeric,G4,G4 Lối sống – khẩu phần
+DR1TFIBE,DR1TFIBE,Chất xơ (ngày 1),g,Chất xơ (ngày 1),numeric,G4,G4 Lối sống – khẩu phần
+RIAGENDR,RIAGENDR,Giới tính (nam = 1),0/1,Giới tính (nam = 1),binary,G1,G1 Nhân khẩu – nhân trắc
+BPQ020,BPQ020,Tăng huyết áp (từng được chẩn đoán),0/1,Tăng huyết áp (từng được chẩn đoán),binary,G3,G3 Bệnh nền
+BPQ080,BPQ080,Cholesterol cao (từng được báo),0/1,Cholesterol cao (từng được báo),binary,G3,G3 Bệnh nền
+PAQ650,PAQ650,Vận động mạnh lúc rảnh,0/1,Vận động mạnh lúc rảnh,binary,G4,G4 Lối sống – khẩu phần
+RIDRETH3_2.0,RIDRETH3,Chủng tộc / dân tộc,nhóm NHANES,Chủng tộc / dân tộc: mức 2,onehot,G1,G1 Nhân khẩu – nhân trắc
+RIDRETH3_3.0,RIDRETH3,Chủng tộc / dân tộc,nhóm NHANES,Chủng tộc / dân tộc: mức 3,onehot,G1,G1 Nhân khẩu – nhân trắc
+RIDRETH3_4.0,RIDRETH3,Chủng tộc / dân tộc,nhóm NHANES,Chủng tộc / dân tộc: mức 4,onehot,G1,G1 Nhân khẩu – nhân trắc
+RIDRETH3_6.0,RIDRETH3,Chủng tộc / dân tộc,nhóm NHANES,Chủng tộc / dân tộc: mức 6,onehot,G1,G1 Nhân khẩu – nhân trắc
+RIDRETH3_7.0,RIDRETH3,Chủng tộc / dân tộc,nhóm NHANES,Chủng tộc / dân tộc: mức 7,onehot,G1,G1 Nhân khẩu – nhân trắc
+SMOKE_STATUS_1.0,SMOKE_STATUS,Hút thuốc,0 / 1 / 2 / 3,Hút thuốc: mức 1,onehot,G4,G4 Lối sống – khẩu phần
+SMOKE_STATUS_2.0,SMOKE_STATUS,Hút thuốc,0 / 1 / 2 / 3,Hút thuốc: mức 2,onehot,G4,G4 Lối sống – khẩu phần
+SMOKE_STATUS_3.0,SMOKE_STATUS,Hút thuốc,0 / 1 / 2 / 3,Hút thuốc: mức 3,onehot,G4,G4 Lối sống – khẩu phần
+GLYCEMIC_HX_1.0,GLYCEMIC_HX,Tiền sử đường huyết,0 / 1 / 2,Tiền sử đường huyết: mức 1,onehot,G3,G3 Bệnh nền
+GLYCEMIC_HX_2.0,GLYCEMIC_HX,Tiền sử đường huyết,0 / 1 / 2,Tiền sử đường huyết: mức 2,onehot,G3,G3 Bệnh nền
+BPXOSY1_was_missing,BPXOSY1,Huyết áp tâm thu,mmHg,Huyết áp tâm thu (chỉ báo thiếu),missing_indicator,G1,G1 Nhân khẩu – nhân trắc
+BPXODI1_was_missing,BPXODI1,Huyết áp tâm trương,mmHg,Huyết áp tâm trương (chỉ báo thiếu),missing_indicator,G1,G1 Nhân khẩu – nhân trắc
+LBXSASSI_was_missing,LBXSASSI,AST,U/L,AST (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+LBXSATSI_was_missing,LBXSATSI,ALT,U/L,ALT (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+LBXSGTSI_was_missing,LBXSGTSI,GGT,U/L,GGT (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+LBXSTR_was_missing,LBXSTR,Triglyceride,mg/dL,Triglyceride (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+LBDHDD_was_missing,LBDHDD,HDL-cholesterol,mg/dL,HDL-cholesterol (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+LBXTC_was_missing,LBXTC,Cholesterol toàn phần,mg/dL,Cholesterol toàn phần (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+LBXSGL_was_missing,LBXSGL,Glucose huyết thanh,mg/dL,Glucose huyết thanh (chỉ báo thiếu),missing_indicator,G2,G2 Sinh hóa
+diet_recall_missing,DR1TKCAL,Năng lượng khẩu phần (ngày 1),kcal,Khẩu phần ngày 1 (chỉ báo thiếu),missing_indicator,G4,G4 Lối sống – khẩu phần

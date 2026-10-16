@@ -1,0 +1,8 @@
+# Môi trường để nạp đúng mô hình đã huấn luyện (tuần 6–7 chạy trên Colab với các bản này).
+# Bản khác có thể không mở được tệp .joblib hoặc cho xác suất lệch.
+scikit-learn==1.9.0
+lightgbm==4.6.0
+numpy==2.5.2
+pandas==3.0.5
+joblib==1.6.0
+# Thư viện giao diện do người làm app tự chọn (ví dụ streamlit, flask, gradio) — không ảnh hưởng mô hình.

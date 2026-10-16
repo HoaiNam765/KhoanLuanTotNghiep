@@ -1,0 +1,81 @@
+{
+  "ca_A": {
+    "RIDAGEYR": 52,
+    "RIAGENDR": 1,
+    "RIDRETH3": 3,
+    "BMXBMI": 34.5,
+    "BMXWAIST": 112.0,
+    "BMXHIP": 110.0,
+    "BPXOSY1": 138,
+    "BPXODI1": 86,
+    "LBXSASSI": 45,
+    "LBXSATSI": 38,
+    "LBXSGTSI": 62,
+    "LBXSTR": 185,
+    "LBDHDD": 38,
+    "LBXTC": 210,
+    "LBXSGL": 118,
+    "LBXGH": 6.1,
+    "GLYCEMIC_HX": 1,
+    "BPQ020": 1,
+    "BPQ080": 1,
+    "SMOKE_STATUS": 1,
+    "PAQ650": 2,
+    "PAD680": 480
+  },
+  "ca_B": {
+    "RIDAGEYR": 30,
+    "RIAGENDR": 2,
+    "RIDRETH3": 6,
+    "BMXBMI": 21.0,
+    "BMXWAIST": 72.0,
+    "BMXHIP": 92.0,
+    "BPXOSY1": 108,
+    "BPXODI1": 68,
+    "LBXSASSI": 18,
+    "LBXSATSI": 12,
+    "LBXSGTSI": 12,
+    "LBXSTR": 70,
+    "LBDHDD": 65,
+    "LBXTC": 170,
+    "LBXSGL": 88,
+    "LBXGH": 5.2,
+    "GLYCEMIC_HX": 0,
+    "BPQ020": 2,
+    "BPQ080": 2,
+    "SMOKE_STATUS": 0,
+    "PAQ650": 1,
+    "PAD680": 240,
+    "DR1TKCAL": 1800,
+    "DR1TSUGR": 70,
+    "DR1TSFAT": 20,
+    "DR1TFIBE": 18
+  },
+  "ket_qua": {
+    "ca_A": {
+      "xac_suat": 0.594927,
+      "nguong": 0.331598,
+      "ket_luan": "Nguy cơ cao",
+      "p_G1_nhan_khau_nhan_trac": 0.577455,
+      "p_G2_sinh_hoa": 0.626714,
+      "trong_so_G1": 0.645314,
+      "trong_so_G2": 0.354686,
+      "bien_bo_trong": [
+        "DR1TKCAL",
+        "DR1TSUGR",
+        "DR1TSFAT",
+        "DR1TFIBE"
+      ]
+    },
+    "ca_B": {
+      "xac_suat": 0.023198,
+      "nguong": 0.331598,
+      "ket_luan": "Nguy cơ thấp",
+      "p_G1_nhan_khau_nhan_trac": 0.025801,
+      "p_G2_sinh_hoa": 0.018461,
+      "trong_so_G1": 0.645314,
+      "trong_so_G2": 0.354686,
+      "bien_bo_trong": []
+    }
+  }
+}
